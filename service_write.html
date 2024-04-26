@@ -1,0 +1,131 @@
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="common/css/adm_peauty.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="common/js/adm_healing.js"></script>
+<title>PEAUTY</title>
+</head>
+<body>
+	<div class="container">
+		<!--왼쪽영역 S-->
+		<aside>
+			<div class="logo">
+				<img src="images/w_logo.png">
+				<div class="logo_ttl">ADMINISTRATOR</div>
+				<div class="hp_btn_box">
+					<div class="hp_btn"><a href="https://peauty.xyz/">홈페이지 바로가기</a></div>
+				</div>
+			</div>
+			<nav>
+					<li class="dr_cts">
+						<a href="index.html" class="dr_cts_bttl">대시보드</a>
+					</li>	
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">자료관리<img src="images/arr_open.png"></a>
+						<div class="pp">
+							<a href="data_contents_list.html" class="lsmn_off">프레젠테이션 콘텐츠</a>
+							<a href="data_template_list.html" class="lsmn_off">프레젠테이션 템플릿</a>
+							<a href="data_clip_list.html" class="lsmn_off">클립아트</a>
+							<a href="data_font_list.html" class="lsmn_off">폰트</a>
+						</div>
+					</li>		
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">기관관리<img src="images/arr_open.png"></a>
+						<div class="pp">
+							<a href="institution_settings_list.html" class="lsmn_off">기관설정</a>
+							<a href="institution_member_list.html" class="lsmn_off">기관회원</a>
+						</div>
+					</li>	
+					<li class="dr_cts">
+						<a href="service_list.html" class="dr_cts_bttl">고객센터</a>
+					</li>			
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">통계관리<img src="images/arr_open.png"></a>
+						<div class="pp">
+							<a href="statistics_period_contents.html" class="lsmn_off">기간통계</a>
+							<a href="statistics_agency.html" class="lsmn_off">기관통계</a>
+							<a href="statistics_download.html" class="lsmn_off">다운로드내역</a>
+						</div>
+					</li>	
+					<li class="dr_cts">
+						<a href="setting_write.html" class="dr_cts_bttl">환경설정</a>
+					</li>		
+			</nav>
+		</aside>
+		<!--왼쪽영역 E-->
+		<!--오른쪽영역 S-->
+		<section>
+			<div class="cts_pd250">
+				<div class="cts_ttl_box">
+					<div class="cts_ttl">
+						<div class="cts_ttl_txt">게시판<font> | 공지사항, FAQ 등을 관리합니다.</font></div>
+						<div class="cts_btn_box">
+							<a href="#" class="cts_logout_btn">로그아웃</a>
+						</div>
+					</div>
+				</div>
+				<div class="cts_pd50">
+					<div class="tb_ttl">
+						<div>공지사항</div>
+					</div>
+					<div class="bd">
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">공지</div>
+								<div class="bd_cts">
+									<div class="bd_radio"><input type="radio" name="checked01">사용</div>
+									<div class="bd_radio"><input type="radio" name="checked01" checked>미사용</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">제목</div>
+								<div class="bd_cts">
+									<input  type="text" name="" class="bd_ipt">
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">
+									<div class="bd_ttl_center">내용</div>
+								</div>
+								<div class="bd_cts">
+									<textarea class="bd_txtarea"></textarea>
+								</div>
+							</div>
+						</div>
+
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">노출</div>
+								<div class="bd_cts">
+									<div class="bd_radio"><input type="radio" name="checked02">노출</div>
+									<div class="bd_radio"><input type="radio" name="checked02" checked>미노출</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">등록일 / 등록자</div>
+								<div class="bd_cts">2022-08-01 / 관리자</div>
+							</div>
+						</div>
+					</div>
+					<!--버튼 S-->
+					<div class="btm_btn">
+						<div class="left_btn"><a href="service_list.html" class ="llist_btn">목록</a></div>
+						<div class="right_btn"><a href="#" class="rcancel_btn">취소</a></div>
+						<div class="right_btn"><a href="#" class="rrmv_btn">삭제</a></div>
+						<div class="right_btn"><a href="#" class="rwrit_btn">등록</a></div>
+					</div>
+					<!--버튼 E-->
+				</div>
+			</div>
+		</section>
+		<!--오른쪽영역 E-->
+	</div>
+</body>
+</html>

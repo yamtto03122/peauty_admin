@@ -1,0 +1,165 @@
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="common/css/adm_peauty.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="common/js/adm_healing.js"></script>
+<title>PEAUTY</title>
+</head>
+<body>
+	<div class="container">
+		<!--왼쪽영역 S-->
+		<aside>
+			<div class="logo">
+				<img src="images/w_logo.png">
+				<div class="logo_ttl">ADMINISTRATOR</div>
+				<div class="hp_btn_box">
+					<div class="hp_btn"><a href="https://peauty.xyz/">홈페이지 바로가기</a></div>
+				</div>
+			</div>
+			<nav>
+					<li class="dr_cts">
+						<a href="index.html" class="dr_cts_bttl">대시보드</a>
+					</li>	
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">자료관리<img src="images/arr_close.png"></a>
+						<div class="pps">
+							<a href="data_contents_list.html" class="lsmn_off">프레젠테이션 콘텐츠</a>
+							<a href="data_template_list.html" class="lsmn_off">프레젠테이션 템플릿</a>
+							<a href="data_clip_list.html" class="lsmn_off">클립아트</a>
+							<a href="index.html" class="lsmn_on">폰트</a>
+						</div>
+					</li>		
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">기관관리<img src="images/arr_open.png"></a>
+						<div class="pp">
+							<a href="institution_settings_list.html" class="lsmn_off">기관설정</a>
+							<a href="institution_member_list.html" class="lsmn_off">기관회원</a>
+						</div>
+					</li>	
+					<li class="dr_cts">
+						<a href="service_list.html" class="dr_cts_bttl">고객센터</a>
+					</li>			
+					<li class="dr_cts">
+						<a href="#" class="dr_cts_ttl">통계관리<img src="images/arr_open.png"></a>
+						<div class="pp">
+							<a href="statistics_period_contents.html" class="lsmn_off">기간통계</a>
+							<a href="statistics_agency.html" class="lsmn_off">기관통계</a>
+							<a href="statistics_download.html" class="lsmn_off">다운로드내역</a>
+						</div>
+					</li>	
+					<li class="dr_cts">
+						<a href="setting_write.html" class="dr_cts_bttl">환경설정</a>
+					</li>		
+			</nav>
+		</aside>
+		<!--왼쪽영역 E-->
+		<!--오른쪽영역 S-->
+		<section>
+			<div class="cts_pd250">
+				<div class="cts_ttl_box">
+					<div class="cts_ttl">
+						<div class="cts_ttl_txt">자료관리<font> | 자료를 등록 및 수정할 수 있습니다.</font></div>
+						<div class="cts_btn_box">
+							<a href="#" class="cts_logout_btn">로그아웃</a>
+						</div>
+					</div>
+				</div>
+				<div class="cts_pd50">
+					<div class="tb_ttl">
+						<div>폰트</div>
+					</div>
+					<div class="bd">
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">카테고리</div>
+								<div class="bd_cts">
+									<select class="bd_sel">
+										<option>미디어</option>
+										<option>미디어</option>
+										<option>미디어</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">폰트명</div>
+								<div class="bd_cts">
+									<input  type="text" name="" class="bd_ipt">
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">검색어</div>
+								<div class="bd_cts">
+									<input  type="text" name="" placeholder="#검색어,#검색어,#검색어,#검색어,#검색어,#검색어" class="bd_ipt">
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">
+									<div class="bd_ttl_tb">
+										<div class="bd_ttl_txt">썸네일 이미지</div>
+									</div>
+								</div>
+								<div class="bd_cts">
+									<div class="upload_btn_box">
+										<div class="upload_btn"><a href="#">파일업로드</a></div>
+										<div class="upload_info">기본이미지.png
+											<div class="upload_info_img"><a href="#"><img src="images/file_x.png"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">
+									<div class="bd_ttl_center">다운로드 유형</div>
+								</div>
+								<div class="bd_cts02">
+								<div class="bd_set02">
+									<div class="upload_btn_box">
+										<div class="bd_radio_w85"><input type="radio" name="checked01" checked>다운로드</div>
+										<div class="upload_btn"><a href="#">파일업로드</a></div>
+										<div class="upload_info">기본이미지.png
+											<div class="upload_info_img"><a href="#"><img src="images/file_x.png"></a></div>
+										</div>
+									</div>
+								</div>
+							<div class="bd_set02">
+								<div class="upload_btn_box">
+										<div class="bd_radio_w85"><input type="radio" name="checked01">링크</div>
+									<div class="upload_box">
+										<input type="text" name="" placeholder="https://" class="bd_ipt380">
+									</div>
+								</div>
+							</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">등록일 / 등록자</div>
+								<div class="bd_cts">2022-08-01 / 관리자</div>
+							</div>
+						</div>
+					</div>
+					<!--버튼 S-->
+					<div class="btm_btn">
+						<div class="left_btn"><a href="data_font_list.html" class ="llist_btn">목록</a></div>
+						<div class="right_btn"><a href="#" class="rcancel_btn">취소</a></div>
+						<div class="right_btn"><a href="#" class="rrmv_btn">삭제</a></div>
+						<div class="right_btn"><a href="#" class="rwrit_btn">등록</a></div>
+					</div>
+					<!--버튼 E-->
+				</div>
+			</div>
+		</section>
+		<!--오른쪽영역 E-->
+	</div>
+</body>
+</html>

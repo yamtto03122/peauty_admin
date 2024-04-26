@@ -1,0 +1,307 @@
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="common/css/adm_peauty.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="common/js/adm_healing.js"></script>
+<title>PEAUTY</title>
+</head>
+<body>
+	<div class="container">
+		<!--왼쪽영역 S-->
+		<aside>
+			<div class="logo">
+				<img src="images/w_logo.png">
+				<div class="logo_ttl">ADMINISTRATOR</div>
+				<div class="hp_btn_box">
+					<div class="hp_btn"><a href="https://peauty.xyz/">홈페이지 바로가기</a></div>
+				</div>
+			</div>
+			<nav>
+				<li class="dr_cts">
+					<a href="index.html" class="dr_cts_bttl">대시보드</a>
+				</li>	
+				<li class="dr_cts">
+					<a href="#" class="dr_cts_ttl">자료관리<img src="images/arr_open.png"></a>
+					<div class="pp">
+						<a href="data_contents_list.html" class="lsmn_off">프레젠테이션 콘텐츠</a>
+						<a href="data_template_list.html" class="lsmn_off">프레젠테이션 템플릿</a>
+						<a href="data_clip_list.html" class="lsmn_off">클립아트</a>
+						<a href="data_font_list.html" class="lsmn_off">폰트</a>
+					</div>
+				</li>		
+				<li class="dr_cts">
+					<a href="#" class="dr_cts_ttl">기관관리<img src="images/arr_open.png"></a>
+					<div class="pp">
+						<a href="institution_settings_list.html" class="lsmn_off">기관설정</a>
+						<a href="institution_member_list.html" class="lsmn_off">기관회원</a>
+					</div>
+				</li>	
+				<li class="dr_cts">
+					<a href="service_list.html" class="dr_cts_bttl">고객센터</a>
+				</li>			
+				<li class="dr_cts">
+					<a href="#" class="dr_cts_ttl">통계관리<img src="images/arr_close.png"></a>
+					<div class="pps">
+						<a href="statistics_period_contents.html" class="lsmn_off">기간통계</a>
+						<a href="statistics_agency.html" class="lsmn_on">기관통계</a>
+						<a href="statistics_download.html" class="lsmn_off">다운로드내역</a>
+					</div>
+				</li>	
+				<li class="dr_cts">
+					<a href="setting_write.html" class="dr_cts_bttl">환경설정</a>
+				</li>		
+			</nav>
+		</aside>
+		<!--왼쪽영역 E-->
+		<!--오른쪽영역 S-->
+		<section>
+			<div class="cts_pd250">
+				<div class="cts_ttl_box">
+					<div class="cts_ttl">
+						<div class="cts_ttl_txt">통계관리<font> | 각종 통계를 확인하세요.</font></div>
+						<div class="cts_btn_box">
+							<a href="#" class="cts_logout_btn">로그아웃</a>
+						</div>
+					</div>
+				</div>
+				<div class="cts_pd50">
+					<div class="tb_ttl">
+						<div>기관통계</div>
+					</div>
+					<div class="bd">
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">구분</div>
+								<div class="bd_cts">
+									<div class="bd_radio_w150"><input type="radio" name="checked01" checked>프레젠테이션 콘텐츠</div>
+									<div class="bd_radio_w150"><input type="radio" name="checked01">프레젠테이션 템플릿</div>
+									<div class="bd_radio_w82"><input type="radio" name="checked01" >클립아트</div>
+									<div class="bd_radio_w82"><input type="radio" name="checked01">폰트</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set">
+							<div class="bd_type01">
+								<div class="bd_ttl">년도</div>
+								<div class="bd_cts">
+									<select class="bd_sel"> 
+										<option>2022</option>
+										<option>2022</option>
+										<option>2022</option>
+									</select>
+									<div class="sc_btn_box02">
+										<div class="sc_btn"><a href="#">검색</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bd">
+						<div class="bd_set txt_bold">
+							<div class="bd_w20 bge8">월</div>
+							<div class="bd_w83 bge8">
+								<div class="bd_tb_box">
+									<div class="bd_ttl_w100">기관</div>
+								</div>
+								<div class="bd_w100">
+									<div class="bd_tb_box txt_bold">
+										<div class="bd_ttl_w16">서울시교육청</div>
+										<div class="bd_ttl_w16">충남도서관</div>
+										<div class="bd_ttl_w16">서대문구립도서관</div>
+										<div class="bd_ttl_w16">상명대도서관</div>
+										<div class="bd_ttl_w16">경남과학기술대학교</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50 txt_red">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">합계</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">500</div>
+										<div class="bd_txt_w20">500</div>
+										<div class="bd_txt_w20">500</div>
+										<div class="bd_txt_w20">500</div>
+										<div class="bd_txt_w20">500</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 1월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 2월</div>
+								<div class="bd_td_w100">
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 3월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 4월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 5월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+										<div class="bd_txt_w20">50</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 6월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 7월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 8월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 9월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+										<div class="bd_txt_w20">20</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 10월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 11월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+										<div class="bd_txt_w20">30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bd_set bgff">
+							<div class="bd_w50">
+								<div class="bd_tb_box">
+									<div class="bd_txt_w20">2022년 12월</div>
+									<div class="bd_td_w100">
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+										<div class="bd_txt_w20">40</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--오른쪽영역 E-->
+	</div>
+</body>
+</html>
